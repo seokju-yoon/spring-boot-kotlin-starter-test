@@ -1,0 +1,16 @@
+{
+  "connect.name": "com.iicombined.atiissu.oms.sample.kafka.message.SampleMessage",
+  "name": "SampleMessage",
+  "namespace": "com.iicombined.atiissu.oms.sample.kafka.message",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "value",
+      "type": "string"
+    }
+  ]
+}
