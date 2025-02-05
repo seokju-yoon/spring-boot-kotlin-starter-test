@@ -1,1 +1,25 @@
-spring.application.name=spring-boot-kotlin-jpa
+server:
+  port: 10011
+
+spring:
+  application:
+    name: spring-boot-kotlin-jpa
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 5
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+    properties:
+      hibernate:
+        format_sql: true
+
