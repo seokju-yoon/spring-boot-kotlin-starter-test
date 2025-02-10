@@ -1,0 +1,14 @@
+server:
+  port: 10012
+
+spring:
+  application:
+    name: spring-boot-kotlin-dynamodb
+
+
+aws:
+  dynamodb:
+    endpoint: http://localhost:8000
+    region: ap-northeast-2
+    access-key: access-key
+    secret-key: secret-key
